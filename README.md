@@ -1,7 +1,5 @@
-<p align="center">
-  <h1>AI_Nanodegree: Building a Sudoku Solver in Python</h1>
-  <P><b>This is the first project in the Artificial Intelligence Nanodegree program at Udacity.</b></P>
-</p>
+<p align="center"><h1>AI_Nanodegree: Building a Sudoku Solver in Python</h1></p>
+<P align="center"><b>This is the first project in the Artificial Intelligence Nanodegree program at Udacity.</b></P>
 
 <p align="center">
   <img width="400" height="400" src="https://github.com/Lawrence-Krukrubo/AI_Nanodegree_Project_Sudoku/blob/master/image/sudoku.png?raw=true" alt="Sudoku">
