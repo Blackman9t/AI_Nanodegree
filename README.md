@@ -1,6 +1,4 @@
-<p align="center">
-  <h1>AI_Nanodegree: Building a Sudoku Solver in Python</h1>
-</p>
+<h1 align='center'>AI_Nanodegree: Building a Sudoku Solver in Python</h1>
 <P align="center"><b>This is the first project in the Artificial Intelligence Nanodegree program at Udacity.</b></P>
 
 <p align="center">
