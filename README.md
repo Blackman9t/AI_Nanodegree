@@ -11,21 +11,11 @@ img {
 </style>
 </head>
 <body>
+  <h1> AI_Nanodegree Building a Sudoku Solver in Python</h1>
+  <p>This is the first project in the AIND at Udacity. We build a Sudoku solver from the ground-up in Python.</p>
 
-<h2>Center an Image</h2>
-<p>To center an image, set left and right margin to auto, and make it into a block element.</p>
-
-<img src="https://github.com/Lawrence-Krukrubo/AI_Nanodegree_Project_Sudoku/blob/master/image/sudoku.png?raw=true" alt="Sudoku" style="width:50%; height=400 width=500">
+  <img src="https://github.com/Lawrence-Krukrubo/AI_Nanodegree_Project_Sudoku/blob/master/image/sudoku.png?raw=true" alt="Sudoku"   style="width:50%;" height=400 width=500>
 
 </body>
 </html>
-
-
-
-
-
-
-<h1> AI_Nanodegree Building a Sudoku Solver in Python</h1>
-The Artificial Intelligence Nanodegree Program from Udacity. Complete with all materials and projects bases.
-
 
