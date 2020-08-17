@@ -34,8 +34,8 @@ There are many different kinds of CSP solvers available for CSPs. Z3 is a "Satis
 
 * <b>Software Packages:</b>
 <ul>
-  <li>[Microsoft Research Z3](https://github.com/Z3Prover/z3/wiki#background)</li>
-  <li>[Google OR Tools](https://developers.google.com/optimization/cp/cp_solver)</li>
+  <li><a href="https://github.com/Z3Prover/z3/wiki#background">Microsoft Research Z3</a></li>
+  <li><a href="https://developers.google.com/optimization/cp/cp_solver">Google OR Tools</a></li>
 </ul>
 <br>
 
