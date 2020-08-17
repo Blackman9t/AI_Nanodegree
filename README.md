@@ -38,13 +38,14 @@ There are many different kinds of CSP solvers available for CSPs. Z3 is a "Satis
   <li>[Google OR Tools](https://developers.google.com/optimization/cp/cp_solver)</li>
 </ul>
 <br>
+
 * <b>References:</b>
 <ul>
-  <li>[SAT/SMT by Example](https://yurichev.com/writings/SAT_SMT_by_example.pdf)</li>
-  <li>[Tractability in Constraint Satisfaction Problems: A Survey](https://hal.archives-ouvertes.fr/hal-01230685)</li>
-  <li>[Satisfiability Solvers](https://www.cs.cornell.edu/gomes/papers/satsolvers-kr-handbook.pdf)</li>
-  <li>[Non-Convex Mixed-Integer Nonlinear Programming: A Survey](http://www.optimization-online.org/DB_FILE/2012/02/3378.pdf)</li>
-  <li>[The Alldifferent Constraint: A Survey](https://www.andrew.cmu.edu/user/vanhoeve/papers/alldiff.pdf)</li>
+  <li><a href="https://yurichev.com/writings/SAT_SMT_by_example.pdf">SAT/SMT by Example</a></li>
+  <li><a href="https://hal.archives-ouvertes.fr/hal-01230685">Tractability in Constraint Satisfaction Problems: A Survey</a></li>
+  <li><a href="https://www.cs.cornell.edu/gomes/papers/satsolvers-kr-handbook.pdf">Satisfiability Solvers</a></li>
+  <li><a href="http://www.optimization-online.org/DB_FILE/2012/02/3378.pdf">Non-Convex Mixed-Integer Nonlinear Programming: A Survey</a></li>
+  <li><a href="https://www.andrew.cmu.edu/user/vanhoeve/papers/alldiff.pdf">The Alldifferent Constraint: A Survey</a></li>
 </ul>
 
 
