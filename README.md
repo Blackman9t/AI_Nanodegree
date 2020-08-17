@@ -22,3 +22,31 @@ When trying to solve a problem, it's possible that there are some local constrai
 In the process of problem solving, I may get to the point where two or more possibilities are available. What do I do? What if I branch out and consider both of them? Maybe one of them will lead to a position in which three or more possibilities are available. Then, I can branch out again. At the end, I can create a whole tree of possibilities and find ways to traverse the tree until I find our solution. This is an example of how search can be used.<br>
   <b>What is the search algorithm?</b> Simple: first make sure we haven't already found a solution or a contradiction, and if not, choose one unfilled square and consider all its possible values. One at a time, try assigning the square each value, and searching from the resulting position. In other words, we search for a value d such that we can successfully search for a solution from the result of assigning square s to d. If the search leads to an failed position, go back and consider another value of d. This is a recursive search, and we call it a <a href='https://en.wikipedia.org/wiki/Depth-first_search'>depth-first-search</a> because we (recursively) consider all possibilities under values[s] = d before we consider a different value for s.
 </p>
+
+<h4>Constraint Satisfaction Problems</h4>
+<p>
+Constraint satisfaction is a general problem solving technique for solving a class of combinatorial optimization problems by imposing limits on the values in the solution. The goal of this exercise is to practice formulating some classical example problems as constraint satisfaction problems (CSPs), and then to explore using a powerful open source constraint satisfaction tool called Z3 from Microsoft Research to solve them. Practicing with these simple problems will help you to recognize real-world problems that can be posed as CSPs; some solvers even have specialized utilities for specific types of problem (vehicle routing, planning, scheduling, etc.).
+</p>
+<p>
+There are many different kinds of CSP solvers available for CSPs. Z3 is a "Satisfiability Modulo Theories" (SMT) solver, which means that unlike the backtracking and variable assignment heuristics discussed in lecture, Z3 first converts CSPs to satisfiability problems then uses a boolean satisfiability (SAT) solver to determine feasibility. Z3 includes a number of efficient solver algorithms primarily developed to perform formal program verification, but it can also be used on general CSPs. Google's OR tools includes a CSP solver using backtracking with specialized subroutines for some common CP domains.
+</p>
+<p>Other resources for Constraint Satisfaction Problems solving include:-</p>
+
+* <b>Software Packages:</b>
+<ul>
+  <li>[Microsoft Research Z3](https://github.com/Z3Prover/z3/wiki#background)</li>
+  <li>[Google OR Tools](https://developers.google.com/optimization/cp/cp_solver)</li>
+</ul>
+<br>
+* <b>References:</b>
+<ul>
+  <li>[SAT/SMT by Example](https://yurichev.com/writings/SAT_SMT_by_example.pdf)</li>
+  <li>[Tractability in Constraint Satisfaction Problems: A Survey](https://hal.archives-ouvertes.fr/hal-01230685)</li>
+  <li>[Satisfiability Solvers](https://www.cs.cornell.edu/gomes/papers/satsolvers-kr-handbook.pdf)</li>
+  <li>[Non-Convex Mixed-Integer Nonlinear Programming: A Survey](http://www.optimization-online.org/DB_FILE/2012/02/3378.pdf)</li>
+  <li>[The Alldifferent Constraint: A Survey](https://www.andrew.cmu.edu/user/vanhoeve/papers/alldiff.pdf)</li>
+</ul>
+
+
+
+
